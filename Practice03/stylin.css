@@ -20,6 +20,20 @@ div{
     border: 1px solid darkmagenta;
 }
 
+.list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 15px solid gold;
+    width: 100vw;
+    align-items: center;
+    background-color: darkgreen;
+}
+
+li{
+    font-size: 2rem;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -37,4 +51,7 @@ nav a{
     font-size: 2rem;
     margin: 0.5rem;
     color: red;
+}
+li {
+    color: orange;
 }

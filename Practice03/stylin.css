@@ -55,3 +55,15 @@ nav a{
 li {
     color: orange;
 }
+.links {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px solid darkgrey;
+    width: 100%;
+}
+
+.links a {
+font-size: 2.5rem;
+}

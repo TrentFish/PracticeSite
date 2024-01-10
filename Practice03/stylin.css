@@ -67,3 +67,9 @@ li {
 .links a {
 font-size: 2.5rem;
 }
+.protoshape{
+    height: 250px;
+    width: 250px;
+    border: 10px solid aliceblue;
+    background-color: darkblue;
+}

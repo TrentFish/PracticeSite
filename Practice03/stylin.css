@@ -73,3 +73,9 @@ font-size: 2.5rem;
     border: 10px solid aliceblue;
     background-color: darkblue;
 }
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: orange;
+}

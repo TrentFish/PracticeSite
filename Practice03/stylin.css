@@ -79,3 +79,51 @@ h3 {
     font-size: 2rem;
     color: orange;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .container > div {
+    border: solid 1px black;
+    margin: 1rem;
+    border-radius: 50%;
+  }
+  
+  .sm {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .lg {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .md {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .xl {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
